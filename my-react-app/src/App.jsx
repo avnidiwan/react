@@ -289,38 +289,21 @@
 
 
 
-import React, { useContext } from 'react'
-import Context from './context.jsx'
-import './App.css'
-
-
+import React from 'react'
+import Home from './Home'
+import AddToCart from './AddToCart.jsx'
+import { Routes, Route } from 'react-router-dom';
+import './App.css';
 
 const App = () => {
-     let {dispatch,state}=   useContext(Context)
-    
-
-
-     console.log(dispatch ,state,"hehehe");
-     
-  
-     
-   
-
   return (
-   <>
-   {
-        state.apiData.map((a,index)=>{
-           return(<>
-           <div id='card'>
-          <img  src={a.image}/>
-             <p>{a.name}</p>
-            <p> Rating: {a.rating}</p>          <button  onClick={()=> SetCart([...cart,a])}>add </button>
-           
-          </div>
-          </>)
-         })
-      } 
-   </>
+    <div>
+        {/* <Home/> */}
+       <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/" element={<AddToCart/>}/>
+       </Routes>
+    </div>
   )
 }
 

@@ -4,8 +4,8 @@
   margin:0px;
 }
 #card{
-  height:180px;
-  width:180px;
+  height:220px;
+  width:210px;
   display:inline-block;
   margin:20px;
   justify-content: space-around;
@@ -21,6 +21,7 @@ button{
   background-color:rgb(234, 176, 156);
   border-radius:20px;
   padding:5px;
+  width:100px;
  
 }
 
