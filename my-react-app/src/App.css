@@ -1,0 +1,26 @@
+*{
+ 
+  padding:0px;
+  margin:0px;
+}
+#card{
+  height:180px;
+  width:180px;
+  display:inline-block;
+  margin:20px;
+  justify-content: space-around;
+  
+}
+
+#card img{
+  height:100%;
+  width:100%;
+border-radius:20px;
+}
+button{
+  background-color:rgb(234, 176, 156);
+  border-radius:20px;
+  padding:5px;
+ 
+}
+
