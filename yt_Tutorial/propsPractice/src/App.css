@@ -1,0 +1,8 @@
+
+.users-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;              /* spacing between cards */
+  justify-content: center; /* center the rows */
+  padding: 20px;
+}

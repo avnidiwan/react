@@ -298,12 +298,12 @@ import './App.css';
 const App = () => {
   return (
     <div>
-        {/* <Home/> */}
-       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/" element={<AddToCart/>}/>
-        
-       </Routes>
+      {/* <Home/> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/" element={<AddToCart />} />
+
+      </Routes>
     </div>
   )
 }
