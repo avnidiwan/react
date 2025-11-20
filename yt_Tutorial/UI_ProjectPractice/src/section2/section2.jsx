@@ -28,12 +28,13 @@ const Section2 = () => {
     return (
         <>
             <div className="bg-black h-110 w-full  p-20 ">
-                <div className="w-200"><h1 className="text-4xl font-bold text-white">Unleash your <span className="text-violet-600">Creativity</span></h1>
+                <div className="w-200">
+                    <h1 className="text-4xl font-bold text-white">Unleash your <span className="text-violet-600">Creativity</span></h1>
                     <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, molestiae? At quod culpa in, reiciendis assumenda ullam saepe quos sequi!</p>
                 </div>
                 
               <div className="flex">
-                  {
+                {
                     sec2data.map((a, b) => {
                         return (
                             <Card icon={a.icon} title={a.title} desc={a.desc} key={b} />
